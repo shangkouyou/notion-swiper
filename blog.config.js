@@ -1,10 +1,10 @@
 const BLOG = {
-  title: 'Notion Blog',
-  author: 'CCC',
-  email: 'admin@mynotion.life',
-  link: 'https://mynotion.life',
-  description: 'Notion博客网站',
-  lang: 'en-US', // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES']
+  title: '21 Blog',
+  author: 'Scu',
+  email: 'admin@9277.eu.org',
+  link: 'hbk.9277.eu.org',
+  description: 'Scu博客网站',
+  lang: 'zh-CN', // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES']
   timezone: 'Asia/Shanghai', // See https://en.wikipedia.org/wiki/List_of_tz_database_time_zones for all options.
   appearance: 'dark', // ['light', 'dark', 'auto'],
   font: 'sans-serif', // ['sans-serif', 'serif']
@@ -32,8 +32,8 @@ const BLOG = {
     keywords: ['notion', 'next', 'Blog'],
     googleSiteVerification: '' // Remove the value or replace it with your own google site verification code
   },
-  notionPageId: process.env.NOTION_PAGE_ID || '3d9ebf755c044125b8237c2398021b83', // DO NOT CHANGE THIS! Edit .env file!
-  notionSpacesId: process.env.NOTION_SPACES_ID ||'3566433aa75e4eaf80684da17d0ff217' , // DO NOT CHANGE THIS! Edit .env file!
+  notionPageId: process.env.NOTION_PAGE_ID || '01a5f79910bc46878b2faa3afc279723', // DO NOT CHANGE THIS! Edit .env file!
+  notionSpacesId: process.env.NOTION_SPACES_ID ||'01a5f79910bc46878b2faa3afc279723' , // DO NOT CHANGE THIS! Edit .env file!
   notionAccessToken: process.env.NOTION_ACCESS_TOKEN, // Useful if you prefer not to make your database public
   notionDomain: 'www.notion.site',
   telegramToken: process.env.TELEGRAM_TOKEN ||'6050897201:AAF1Ofc03QWLmIXvEtrbVfjOAoTX83Binss', // The token of your Telegram bot
@@ -64,7 +64,7 @@ const BLOG = {
     // support provider: utterances, supacomments
     provider: 'supacomments', // leave it empty if you don't need any comment plugin
     supaCommentsConfig: {
-      supabaseUrl: 'https://vsjbhkyquwndetkybqxt.supabase.co', // The url of your Supabase instance
+      supabaseUrl: 'https://pinglun.aile.eu.org/', // The url of your Supabase instance
       supabaseAnonKey: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InZzamJoa3lxdXduZGV0a3licXh0Iiwicm9sZSI6ImFub24iLCJpYXQiOjE2ODY1NjkyNDgsImV4cCI6MjAwMjE0NTI0OH0.p992Pul07lKilqIYLYmRfLB584XLf6ABCVedYfjozXU' // The anonymous key of your Supabase instance
     },
     utterancesConfig: {
